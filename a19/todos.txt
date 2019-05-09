@@ -1,0 +1,44 @@
+
+## 一、目标
+
+
+
+## 二、步骤
+
+1. 基础环境
+
+vscode go和python的环境
+git
+wps
+sougou
+zsh 
+    sudo apt-get install zsh
+    https://zhuanlan.zhihu.com/p/19556676
+go 10+ 
+    download from [here](https://studygolang.com/dl)
+docker
+    https://docs.docker.com/install/linux/docker-ce/ubuntu/
+anaconda
+    https://www.anaconda.com/distribution/#download-section
+docker-jupyter
+    
+2 git
+
+http://192.168.1.146:9000/
+https://windspear07.github.io/
+
+## 2. fabric raft
+
+1. fabric sample运行,raft形式使用
+    ./byfn.sh up -o etcdraft
+    # 目前在新的first-network里集成了etcd的演示。
+
+2. gosdk
+
+go sdk使用
+动态添加配置的方式
+
+
+## 
+
+

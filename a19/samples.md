@@ -104,7 +104,16 @@ function generateChannelArtifacts() {
 
 ### 2. 持久化数据
 
-
+rm -rf data
+mkdir -p data/orderer.example.com
+mkdir -p data/orderer2.example.com
+mkdir -p data/orderer3.example.com
+mkdir -p data/orderer4.example.com
+mkdir -p data/orderer5.example.com
+mkdir -p data/peer0.org1.example.com
+mkdir -p data/peer1.org1.example.com
+mkdir -p data/peer0.org2.example.com
+mkdir -p data/peer1.org2.example.com
 
 3. 启动etcdraft模式
 

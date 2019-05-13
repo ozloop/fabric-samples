@@ -25,6 +25,8 @@ services:
       - CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/tls/ca.crt
     working_dir: /opt/gopath/src/github.com/hyperledger/fabric/peer
     command: peer node start
+    volumes:
+      - /etc/localtime:/etc/localtime
 
   orderer-base:
     image: hyperledger/fabric-orderer:$IMAGE_TAG
@@ -47,4 +49,6 @@ services:
       - ORDERER_GENERAL_CLUSTER_ROOTCAS=[/var/hyperledger/orderer/tls/ca.crt]
     working_dir: /opt/gopath/src/github.com/hyperledger/fabric
     command: orderer
+    volumes:
+      - /etc/localtime:/etc/localtime
 
